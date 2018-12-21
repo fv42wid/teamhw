@@ -1,0 +1,27 @@
+This program was written with ruby 2.4.0 and tested on macOS 10.13.6
+
+This program will determine the second lowest cost silver program for a list of zip codes.
+
+Setup:
+The program expects that the directory containing this file will contain
+a directory named 'slcsp' that contains the following file:
+
+- plans.csv
+- slcsp.csv
+- zips.csv
+
+To run:
+In a terminal, cd to the directory that this file is in.
+Run the command 'ruby slcsp.rb'
+The output will be printed to stdout
+
+EX:
+
+$ ruby slcsp.rb
+zipcode,rate
+64148,245.20
+67118,212.35
+40813,
+18229,231.48
+51012,252.76
+...
